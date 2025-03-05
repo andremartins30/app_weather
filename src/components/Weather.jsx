@@ -17,7 +17,7 @@ const Weather = () => {
 
 
         const city = inputRef.current.value
-        const key = "f8a236673fb66d2fe14d7416aacec08c"
+        const key = import.meta.env.VITE_WEATHER_API_KEY
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
         const url5days = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=pt_br&units=metric`
 

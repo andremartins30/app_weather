@@ -22,7 +22,7 @@ const InfoWeather5days = ({weatherCity5days}) => {
 
     const next5days = Object.values(dailyForecast).slice(1,6)
 
-    console.log(next5days)
+    //console.log(next5days)
 
     const convertDate = (date) => {
         const newDate = new Date(date.dt*1000).toLocaleDateString('pt-BR', {weekday:'long', day: '2-digit'})
