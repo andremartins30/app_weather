@@ -12,18 +12,18 @@ Este projeto exibe a previsão do tempo atual e a previsão dos próximos 5 dias
 
 
 3. Inicie o servidor de desenvolvimento:
-
- ```bash
+   ```bash
    npm start
    ```
 
-##Uso
+## Uso
 
 Abra a aplicação no navegador
 Digite o nome de uma cidade no campo de texto e clique no botão Buscar.
 Veja as informações de clima atual e a previsão dos próximos 5 dias.
 
-##Tecnologias
-React
-Axios
-API OpenWeather
+## Tecnologias
+
+1. React
+2. Axios
+3. API OpenWeather
